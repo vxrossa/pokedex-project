@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .card-element {
+    @apply bg-slate-50 shadow-lg rounded-xl hover:shadow-xl transition-all duration-500 ease-out;
+  }
+  .stripe {
+    @apply bg-red-600 min-w-0 h-1 mt-auto transition-all duration-300 ease-out;
+  }
+  .header-button {
+    @apply min-h-full flex justify-center items-center;
+  }
+  .icon {
+    @apply text-gray-600 group-hover:text-red-600 duration-100 text-3xl;
+  }
+  .search-button {
+    @apply duration-300 hover:scale-95 active:scale-90 active:bg-red-700 bg-red-600 shadow-red-800 shadow-2xl w-16 h-16 rounded-2xl flex items-center justify-center mr-3 ml-auto;
+  }
+  .sorting-top {
+    @apply w-full h-1/2 flex items-center justify-between px-2;
+  }
+  .sorting-bottom {
+    @apply w-full h-1/2 flex;
+  }
+  .info-image {
+    @apply object-contain;
+  }
+  .info-heading {
+    @apply text-gray-600;
+  }
+  .random-button {
+    @apply duration-300 hover:scale-95 active:scale-90 active:bg-red-700 bg-red-600 text-white font-bold mt-8 rounded-xl mb-10 h-8 p-6 flex items-center justify-center mx-auto shadow-xl;
+  }
+  .types-wrapper {
+    @apply mx-auto flex items-center justify-center gap-x-3;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #e2e8f0;
+}
