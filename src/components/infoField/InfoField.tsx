@@ -6,7 +6,7 @@ import RandomButton from "./info/RandomButton";
 
 const InfoField = () => {
   return (
-    <nav className="col-span-4 card-element relative row-span-3">
+    <nav className="col-span-4 card-element row-span-3 sticky top-36">
       <img className="info-image absolute w-2/3 -top-36 left-1/4" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png" alt="" />
         <h5 className="pokemon-id mt-24 font-bold text-gray-400">#25</h5>
         <h3 className=" pokemon-name font-bold text-2xl">Pikachu</h3>

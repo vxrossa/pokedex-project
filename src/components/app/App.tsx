@@ -6,7 +6,7 @@ function App() {
   return (
     
     <div className="App"> 
-      <SiPokemon className="absolute text-[800px] opacity-20 top-[-250px] left-[-100px] rotate-[-20deg] z-[-1]"/>
+      <SiPokemon className="fixed text-[800px] opacity-10 top-[-250px] left-[-100px] rotate-[-20deg] z-[-1]"/>
       <AppWrapper/>
     </div>
   );
