@@ -1,0 +1,12 @@
+.pokedex-image{
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-name: translation;
+        animation-timing-function: ease-in-out;
+}
+
+@keyframes translation {
+        0% { transform: translateY(20px) }
+        50% { transform: translateY(0px) }
+        100% { transform: translateY(20px) }
+}
